@@ -1,0 +1,16 @@
+.listDrinks {
+  list-style: none;
+}
+
+.listElement {
+  background-color: orange;
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.favoriteElement {
+  background-color: pink;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+}
