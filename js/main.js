@@ -82,3 +82,5 @@ function handleClick(){
 }
 
 searchBtn.addEventListener("click", handleClick);
+
+localStorage.setItem('drinks favorites', JSON.stringify (favoritesList) );

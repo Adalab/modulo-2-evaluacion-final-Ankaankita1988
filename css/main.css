@@ -3,14 +3,29 @@
 }
 
 .listElement {
+  display:flex;
+  flex-direction: column;
+  width: 45%;
   background-color: orange;
   font-size: 12px;
   font-family: 'Times New Roman', Times, serif;
+  text-align: right;
+  float:right;
+  justify-content: space-between;
+  margin:5px;
+  gap: 10px;
+
 }
 
 .favoriteElement {
+  display:block;
+  flex-direction: column;
+  padding: o;
+  margin:5px;
   background-color: pink;
   font-size: 18px;
   font-weight: bold;
   font-family: cursive;
+  text-align: left;
+  width: 45%;
 }
